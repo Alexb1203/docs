@@ -126,7 +126,7 @@ myfile.close()
 
 # READ OPERATION
 # Reopen file again to read
-myfile=ABopenfile("testfile.txt",True)
+myfile=ABopenfile("testfile.txt",False) //False because we want to open & read. Not Overwrite.
 
 # Read the file to check the contents
 try:
